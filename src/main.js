@@ -9,6 +9,6 @@ import notes from "@/seed.json";
 
 store.commit("setNotes", notes);
 
-console.log(store);
+// console.log(store);
 
 createApp(App).use(store).mount("#app");
