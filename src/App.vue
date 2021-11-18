@@ -1,7 +1,19 @@
 <template>
-  <main class="dev | container | p-3 my-3 mx-auto | flex">
+  <main
+    class="
+      container
+      min-h-1/2
+      p-3
+      my-3
+      mx-auto
+      bg-white
+      rounded-xl
+      shadow-lg
+      flex
+    "
+  >
     <!--Left side -->
-    <section class="dev | w-1/4 p-3 mr-3">
+    <section class="w-1/4 p-3 mr-3 bg-gray-100">
       <!-- Search Notes -->
       <p>Search Notes</p>
 
@@ -10,7 +22,7 @@
     </section>
 
     <!-- Right Side -->
-    <section class="dev | p-3 | flex-grow">
+    <section class="p-3 | flex-grow">
       <!-- Active note -->
       <active-note />
     </section>

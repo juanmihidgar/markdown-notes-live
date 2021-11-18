@@ -1,6 +1,18 @@
 <template>
   <ul>
-    <note-list-item v-for="note in notes" :key="note.id" :note="note" />
+    <note-list-item
+      v-for="note in notes"
+      :key="note.id"
+      :note="note"
+      class="
+        p-3
+        my-4
+        border-2 border-white border-gray-
+        shadow-xl
+        rounded-md
+        cursor-pointer
+      "
+    />
   </ul>
 </template>
 
